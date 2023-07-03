@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolehiyo Ng Subic</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c0a6fdeea1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Course</h1>
+    </section>
+
+<!--course-->
+
+<section class="course">
+    <h1>Course We Offer</h1>
+    <p>knsian's graduate courses are challenging and intensive: we expect a lot from our graduate students. Our approach to graduate study emphasises your ability to work independently, while supported by a world-class academic community.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Teachers Education</h3>
+            <p>As expected, many students of education degrees wish to enter a career teaching 
+            children or adults. However, not everyone chooses to become a teacher. As you complete your degree,
+            you may find that other aspects of education interest you more.</p>
+        </div>
+        <div class="course-col">
+            <h3>Computer Science</h3>
+            <p>Understanding the principles of computing is quickly becoming an essential skill. 
+            It provides people with a keen understanding of how technology impacts their lives, 
+            empowers them to become full participants in society, and unlocks a wide range of career opportunities.</p>
+        </div>
+        <div class="course-col">
+            <h3>Business Education</h3>
+            <p>the process of planning, organizing, directing, and controlling the activities of a business or organization to achieve its goals and objectives. It involves overseeing all aspects of a business, from finance and operations to marketing and human resources.</p>
+        </div>
+        <div class="course-col">
+            <h3>Hospitality Management</h3>
+            <p>Degree program that delivers education to people who are interested to build a career 
+            in the leisure industry involving the planning, development, implementation and control of 
+            culinary and accommodation/billeting operations.</p>
+        </div>
+    </div>
+</section>
+
+
+<!--footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>envisions all Subiquenos to have access to 
+     <br> quality education and achieve the dream of a progressive Subic Community</p>
+     <div class="icon">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-github"></i>
+     </div>
+</section>
+
+<!--java script-->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
