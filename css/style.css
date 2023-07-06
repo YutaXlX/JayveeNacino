@@ -551,3 +551,134 @@ h3{
     border: 1px solid #f0f0f0;
     box-sizing: border-box;
 }
+
+.about-me{
+    height: 50vh;
+    width: 50%;
+    background: #1c3454;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.inform img{
+    width: 300px;
+    height: 300px;
+    padding: 13px;
+    position: absolute;
+    border-radius: 25px;
+    right: 1004px;
+}
+
+.inform h1{
+    font-size: 30px;
+    right: 700px;
+    padding-top: 115px;
+    position: absolute;
+    text-align: start;
+}
+
+.inform h4{
+    font-size: 13px;
+    right: 900px;
+    padding-top: 90px;
+    position: absolute;
+}
+
+.inform p{
+    font-size: 13px;
+    right: 777px;
+    padding-top: 205px;
+    position: absolute;
+    text-align: start;
+}
+
+.social-info{
+    position:absolute;
+    right: 370px;
+    height: 250px;
+    width: 250px;
+    background: #1c3454;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    bottom: -55px;
+}
+
+.social-info h4{
+    position: absolute;
+    font-size: 20px;
+    right: 57px;
+    padding-top: 115px;
+    top: -50px;
+}
+
+.media-icons{
+    position: absolute;
+    left: 60px;
+    top: 100px;
+    cursor: pointer;
+    font-size: 40px;
+    color: #fff;
+}
+
+.audio{
+    position:absolute;
+    right: -5px;
+    height: 250px;
+    width: 360px;
+    background: #1c3454;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    bottom: -55px;
+}
+
+.audio h4{
+    position: absolute;
+    font-size: 20px;
+    right: 130px;
+    padding-top: 115px;
+    top: -50px;
+
+}
+
+.vol{
+    position: absolute;
+    left: 30px;
+    top: 125px;
+}
+
+.verse{
+    position:absolute;
+    right: -5px;
+    height: 65px;
+    width: 622px;
+    background: #1c3454;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    bottom: 205px;
+}
+
+.verse h3{
+    bottom: 7px;
+    position: absolute;
+    right: 40px;
+}
+
+@media (max-width: 700px){
+    .about-me{
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+}
